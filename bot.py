@@ -16,7 +16,7 @@ from telegram.ext import (
 
 # ========== CONFIG ==========
 BOT_TOKEN = os.getenv("TELEGRAM_TOKEN") or "8281254978:AAFaO5jwLAvuFKr3bf87op-BfdB6PTAlk7k"
-DO_TOKEN = os.getenv("DO_TOKEN") or "dop_v1_0e81f69c315b99cc1b26528da9af5a747cfcd46159b6127228dfb9d2e7162350"
+DO_TOKEN = os.getenv("DO_TOKEN") or "dop_v1_7d249428d9377e7bcac60a7bf0f25bbe9b23641cbb92bf44dd2af4c5425ce4f1"
 API_URL = "https://api.digitalocean.com/v2"
 HEADERS = {"Authorization": f"Bearer {DO_TOKEN}", "Content-Type": "application/json"}
 REGION = "sgp1"
